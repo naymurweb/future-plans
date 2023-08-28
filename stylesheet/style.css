@@ -108,6 +108,26 @@ main section {
 .previous-content p {
   margin: 24px 0 16px 0;
 }
+
 .previous-content i {
   color: #16d887;
+}
+
+/* my plans */
+.plans-section{
+text-align: center;
+}
+.plans-section h2{
+    margin-bottom: 50px;
+}
+
+.plans{
+    display: flex;
+    justify-content: space-between;
+}
+.plans p{
+    color: #737272;
+}
+.plans img{
+    margin-bottom: 20px;
 }
