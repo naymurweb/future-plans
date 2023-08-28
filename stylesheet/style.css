@@ -67,6 +67,7 @@ header {
   width: 100%;
 }
 
+main,
 .container {
   max-width: 1140px;
   margin: 0 auto;
@@ -86,4 +87,27 @@ header {
 
 .hero p {
   margin: 25px 0;
+}
+
+/* previous year  */
+main section {
+  margin: 80px 0;
+}
+.previous {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+
+.previous-content li {
+  list-style: none;
+  margin: 8px 0;
+}
+
+.previous-content p {
+  margin: 24px 0 16px 0;
+}
+.previous-content i {
+  color: #16d887;
 }
