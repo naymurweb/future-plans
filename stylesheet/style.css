@@ -55,6 +55,7 @@ h3 {
   border: none;
   cursor: pointer;
   background-color: white;
+  color: #005fac;
 }
 
 /* hero section */
@@ -91,7 +92,7 @@ main,
 
 /* previous year  */
 main section {
-  margin: 80px 0;
+  margin: 120px 0;
 }
 .previous {
   display: flex;
@@ -114,20 +115,32 @@ main section {
 }
 
 /* my plans */
-.plans-section{
-text-align: center;
+.plans-section {
+  text-align: center;
 }
-.plans-section h2{
-    margin-bottom: 50px;
+.plans-section h2 {
+  margin-bottom: 50px;
 }
 
-.plans{
-    display: flex;
-    justify-content: space-between;
+.plans {
+  display: flex;
+  justify-content: space-between;
 }
-.plans p{
-    color: #737272;
+.plans p {
+  color: #737272;
 }
-.plans img{
-    margin-bottom: 20px;
+.plans img {
+  margin-bottom: 20px;
+}
+
+/* positive mindset */
+
+.positive {
+  background-image: url("../images/gradient1.png"), url("../images/watch.png");
+  padding: 60px;
+}
+
+.positive h2 {
+  color: white;
+  margin: 25px 0;
 }
