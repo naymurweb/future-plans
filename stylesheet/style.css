@@ -35,3 +35,55 @@ h3 {
 .secondary-dark {
   color: #737272;
 }
+
+/* share */
+
+.primaryBtn {
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #005fac;
+}
+.secondaryBtn {
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+}
+
+/* hero section */
+
+header {
+  background-image: url("../images/banner/banner3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.hero div {
+  width: 50%;
+}
+
+.hero {
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  text-align: end;
+}
+
+.hero p {
+  margin: 25px 0;
+}
